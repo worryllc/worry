@@ -1,0 +1,3 @@
+C:\Users\treek\source\repos\Worry\Worry\obj\Debug\Worry.njsprojAssemblyReference.cache
+C:\Users\treek\source\repos\Worry\Worry\obj\Debug\Worry.njsproj.CoreCompileInputs.cache
+C:\Users\treek\source\repos\Worry\Worry\bin\Microsoft.NodejsTools.WebRole.dll

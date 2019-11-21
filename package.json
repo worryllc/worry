@@ -1,0 +1,9 @@
+{
+  "name": "worry",
+  "version": "1.0.0",
+  "description": "Worry",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}
