@@ -212,7 +212,7 @@ div {
 
 /* The sidebar menu */
 .sidenav {
-  height: 62.2%; /* Full-height: remove this if you want "auto" height */
+  height: 59.05%; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
   position:absolute; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 0; /* Stay on top */
@@ -659,7 +659,7 @@ li.twitter {
     background-color: black;
     opacity: .5;
     width: 50px;
-    margin: -6px auto 20px;
+    margin: 3px auto 20px;
 }
 
 .flex-item h2 {
@@ -764,6 +764,15 @@ input {
     margin: auto;
 }
 
+.footer-1 hr {
+    height: 1px;
+    border: none;
+    background-color: black;
+    opacity: .5;
+    width: 100%;
+    margin: 40px auto 10px;
+}
+
 .navigation {
     display: flex;
     display: -webkit-box;
@@ -794,6 +803,10 @@ input {
 .logo, .logo-wrap {
     width : 105px;
     height: 36px;
+}
+
+.worry-mill {
+    background-color: darkslategray;
 }
 
 a, abbr, acronym, address, applet, big, blockquote, body, button, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, input, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
