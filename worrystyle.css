@@ -805,6 +805,22 @@ input {
     height: 36px;
 }
 
+.logo-main {
+    width: 600px;
+    height: auto;
+    align-content: center;
+    padding-left: 65%;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-content: center;
+    padding: 40px;
+    margin: 0;
+}
+
 .worry-mill {
     background-color: darkslategray;
 }
