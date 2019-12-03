@@ -300,6 +300,21 @@ div {
   padding-top: 60px;
 }
 
+.bgimg-main{
+    background-image: url("https://cdn.britannica.com/94/146394-050-1299F4B7/Shaft-light-canopy-rainforest-Malaysian.jpg");
+    min-height: 770px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.bgimg-main:before {
+    background-color: rgba(200, 200, 200, 0.30);
+    z-index: 1;
+}
+
 .bgimg1 {
     /* The image used */
     background-image: url("https://cdn.discordapp.com/attachments/552972503669145620/628336400906977280/d26de4d.jpg");
@@ -818,7 +833,39 @@ input {
     position: relative;
     align-content: center;
     padding: 40px;
+    padding-top: 100px;
     margin: 0;
+}
+
+.main-button-container {
+    width: 100%;
+    position: relative;
+    align-self: center;
+    padding: 100px;
+    padding-bottom: 0px;
+}
+
+.main-button {
+    width: 100px;
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    align-content: center;
+    padding: 6px 12px;
+    display: inline-block;
+}
+
+.main-dropdown {
+    width: 130px;
+    color: black;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.main-dropdown a {
+    font-size: 22px;
+    color: black;
 }
 
 .worry-mill {
