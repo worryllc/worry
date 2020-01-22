@@ -307,12 +307,12 @@ div {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
 }
 
-.bgimg-main:before {
-    background-color: rgba(200, 200, 200, 0.30);
-    z-index: 1;
+.frosted {
+    backdrop-filter: 
+    opacity()
+    ;
 }
 
 .bgimg1 {
