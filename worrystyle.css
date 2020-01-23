@@ -107,6 +107,14 @@ div {
     margin: 1px 0;
 }
 
+.undertext-container {
+    background-color: black;
+    position: absolute;
+    padding: 0 1%;
+    max-width: 69%;
+    margin-left: 29%;
+}
+
 
 .nav-bar {
     width: 100%;
@@ -302,12 +310,13 @@ div {
 }
 
 .bgimg-main{
-    background-image: url("https://cdn.britannica.com/94/146394-050-1299F4B7/Shaft-light-canopy-rainforest-Malaysian.jpg");
+    background-image: url("assets/image0.jpg");
     min-height: 770px;
+    min-width: 100%;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: 69%;
 }
 
 .frosted {
