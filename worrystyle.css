@@ -317,6 +317,7 @@ div {
     background-position: center;
     background-repeat: repeat;
     background-size: 69%;
+    height: 100%;
 }
 
 .frosted {
