@@ -1,4 +1,11 @@
-﻿
+﻿@font-face {
+    font-family: Product Sans;
+    src: 
+        local("PRODUCT SANS REGULAR") 
+        url(assets/fonts/Product-Sans/PRODUCT-SANS-REGULAR.TTF)
+        format(truetype);
+}
+
 p{
     color: black;
     font-family: Product Sans;
