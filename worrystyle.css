@@ -1,8 +1,10 @@
 ﻿@font-face {
     font-family: Product Sans;
-    src: 
-        local("PRODUCT SANS REGULAR") 
-        url(assets/fonts/Product-Sans/PRODUCT-SANS-REGULAR.TTF)
+    src:  
+        url(assets/fonts/product-sans/product-sans-regular.ttf)
+        url(assets/fonts/product-sans/product-sans-bold.ttf)
+        url(assets/fonts/product-sans/product-sans-italic.ttf)
+        url(assets/fonts/product-sans/product-sans-bold-italic.ttf)
         format(truetype);
 }
 
