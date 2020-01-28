@@ -309,19 +309,24 @@ div {
   padding-top: 60px;
 }
 
-.bgimg-main{
+.bgimg-main {
     background-image: url("assets/image0.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
-    background-size: cover;
+    background-size: contain;
     max-height: 100%;
+    width: auto;
 }
 
-.frosted {
-    backdrop-filter: 
-    opacity()
-    ;
+.bgimg-store {
+    background-image: url("assets/sadcat.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 20%;
+    min-height: 400px;
 }
 
 .bgimg1 {
