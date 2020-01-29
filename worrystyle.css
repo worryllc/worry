@@ -77,6 +77,10 @@ div {
     display: block;
 }
 
+.worry-store-logo {
+    padding-bottom: 1%;
+}
+
 .worry-container {
     padding: 0.01em 30px;
 }
@@ -221,7 +225,7 @@ div {
 
 /* The sidebar menu */
 .sidenav {
-  height: 59.05%; /* Full-height: remove this if you want "auto" height */
+  height: 92%; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
   position:absolute; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 0; /* Stay on top */
@@ -230,6 +234,7 @@ div {
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+  z-index: -1;
 }
 
 /* The navigation menu links */
@@ -505,8 +510,36 @@ img {
     }
 }
 
-.gallery {
+.gallery-flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
 
+.gallery-flex-item {
+    flex: 25%;
+    max-width: wrap;
+    padding: 0 4px;
+}
+
+.gallery-flex-item img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%
+}
+
+@media screen and (max-width: 800px) {
+    .gallery-flex-item {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery-flex-item {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
 
 .container-inner-404 {
