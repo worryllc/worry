@@ -888,8 +888,9 @@ input {
 }
 
 .logo, .logo-wrap {
-    width : 105px;
-    height: 36px;
+    min-width: 50%;
+    max-width : 450px;
+    height: auto;
 }
 
 .logo-main {
