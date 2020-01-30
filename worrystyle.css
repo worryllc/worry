@@ -542,6 +542,24 @@ img {
     }
 }
 
+.store-price {
+    padding-right: 8px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.store-item-title {
+    padding: 0 8px;
+    padding-bottom: 24px; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.store-item-title p {
+    font-size: 12px;
+    font-weight: normal;
+}
+
 .container-inner-404 {
     font-family: Product Sans;
     margin-top: 100px;
